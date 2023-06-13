@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Lechuga",
+        "imagen": "images/lechuga.jpg",
+        "clima": ["Templado", "Calido", "Fresco"],
+        "epoca": ["Verano", "Invierno"],
+        "descripcion": "DESCRIPCION"
+    },
+    {
+        "nombre": "Tomate",
+        "imagen": "images/tomate.jpg",
+        "clima": ["Templado"],
+        "epoca": ["Verano", "Invierno", "Otono"],
+        "descripcion": "DESCRIPCION"
+    },
+    {
+        "nombre": "Papa",
+        "imagen": "images/papa.jpg",
+        "clima": ["Templado", "Calido", "Fresco", "Humedo"],
+        "epoca": ["Invierno", "Otono", "Primavera"],
+        "descripcion": "DESCRIPCION"
+    },
+    {
+        "nombre": "Zanahoria",
+        "imagen": "images/zanahoria.jpg",
+        "clima": ["Calido"],
+        "epoca": ["Verano"],
+        "descripcion": "DESCRIPCION"
+    }
+]

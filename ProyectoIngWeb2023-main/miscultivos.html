@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Mis Cultivos </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+        <!-- Hoja de estilos CSS -->
+        <link rel="stylesheet" href="less/styles.css">
+    </head>
+    <body>
+      <!-- Barra de navegación -->
+        <div class="container">
+            <header>
+              <!--Barra de navegacion Bootstrap -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">Quienes Somos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="ubicacion.html">Según tu ubicación</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="catalogo.html">Catalogo</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="miscultivos.html">Mis cultivos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registro</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="iniciar-sesion.html">Ingreso</a>
+                          </li>
+                        </ul>
+                    </div>
+                  </nav>
+                  <!-- Fin Barra de navegacion Bootstrap -->
+            </header>
+        </div>
+        <!-- Fin Barra de navegación -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <!-- Contenido de la pagina -->
+        <div class="container">
+            <div class="mis-cultivos">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="titulo">
+                            <h1>Mis cultivos</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <button><a href="nuevoalimento.html">Ingresar nuevo alimento</a></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="separador"></div><br>
+                </div>
+                <div class="row">
+                    <table class="tabla-cultivos">
+                        <thead>
+                            <tr>
+                                <td>Alimento</td>
+                                <td>Fecha plantacion</td>
+                                <td>Fecha cultivo</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Tomate</td>
+                            <td>02/04/23</td>
+                            <td>02/06/23</td>
+                        </tr>
+                        <tr>
+                            <td>Lechuga</td>
+                            <td>02/04/23</td>
+                            <td>02/05/23</td>
+                        </tr>
+                        <tr>
+                            <td>Papa</td>
+                            <td>02/04/23</td>
+                            <td>15/06/23</td>
+                        </tr>
+                        <tr>
+                            <td>Zanahoria</td>
+                            <td>02/04/23</td>
+                            <td>30/05/23</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="container">
+          <div class="row">
+            <footer>
+              <div class="linea-1"></div>
+              <div class="linea-2"></div>
+              <img src="images/logo.png" class="regiones-chile">
+              <br/>
+              <a href="index.html">Inicio</a> |
+              <a href="contacto.html">Contáctanos</a>
+              <p>Todos los derechos reservados &copy;</p>
+            </footer>
+          </div>
+        </div>
+        <!-- JS -->
+        <script src="script.js"></script>
+    </body>
+</html>
